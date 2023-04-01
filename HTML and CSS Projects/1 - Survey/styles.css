@@ -1,0 +1,51 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+  text-align: center;
+}
+
+form {
+  background-color: hsla(0, 0%, 26%, 0.3);
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  padding: 2.5rem;
+}
+
+label,
+p {
+  display: block;
+  padding: 10px 0;
+  background-color: hsla(0, 0%, 26%, 0);
+}
+
+input {
+  height: 25;
+  border-color: hsla(0, 0%, 26%, 0.3);
+  color: white;
+}
+
+#number,
+#name,
+#email,
+#dropdown {
+  width: 100%;
+  color: white;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 10px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 0;
+}

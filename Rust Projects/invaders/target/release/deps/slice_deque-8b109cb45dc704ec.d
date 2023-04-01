@@ -1,0 +1,11 @@
+/mnt/c/Users/Nick_/Desktop/Coding Projects/portfolio/Rust - Invaders Project/invaders/target/release/deps/slice_deque-8b109cb45dc704ec.rmeta: /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/lib.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/macros.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/mod.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/buffer.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/linux.rs
+
+/mnt/c/Users/Nick_/Desktop/Coding Projects/portfolio/Rust - Invaders Project/invaders/target/release/deps/libslice_deque-8b109cb45dc704ec.rlib: /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/lib.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/macros.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/mod.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/buffer.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/linux.rs
+
+/mnt/c/Users/Nick_/Desktop/Coding Projects/portfolio/Rust - Invaders Project/invaders/target/release/deps/slice_deque-8b109cb45dc704ec.d: /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/lib.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/macros.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/mod.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/buffer.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/linux.rs
+
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/lib.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/macros.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/mod.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/buffer.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/linux.rs:

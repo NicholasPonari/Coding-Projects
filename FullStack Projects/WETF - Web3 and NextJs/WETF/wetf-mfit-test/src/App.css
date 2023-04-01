@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.941);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  text-align: center;
+  align-items: center;
+  font-size: larger;
+}
+
+.App-header {
+  margin: auto;
+  height: 100%;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #090808;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #090808;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.stocks {
+  display: flex;
+  flex-wrap: nowrap;
+  row-gap: 10px;
+  margin-top: 40px;
+}
+.stock {
+  flex: 1 1 50%;
+  padding: 50px;
+}

@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+  main {
+    background-color: white;
+  }
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--main-red);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+  z-index: 10;
+}

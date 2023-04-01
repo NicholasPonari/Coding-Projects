@@ -1,0 +1,12 @@
+/mnt/c/Users/Nick_/Desktop/Coding Projects/portfolio/Rust - Invaders Project/invaders/target/debug/deps/libthiserror_impl-65e03fc5ad2e938c.so: /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/lib.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/ast.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/attr.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/expand.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/fmt.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/generics.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/prop.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/valid.rs
+
+/mnt/c/Users/Nick_/Desktop/Coding Projects/portfolio/Rust - Invaders Project/invaders/target/debug/deps/thiserror_impl-65e03fc5ad2e938c.d: /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/lib.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/ast.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/attr.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/expand.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/fmt.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/generics.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/prop.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/valid.rs
+
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/lib.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/ast.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/attr.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/expand.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/fmt.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/generics.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/prop.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.32/src/valid.rs:

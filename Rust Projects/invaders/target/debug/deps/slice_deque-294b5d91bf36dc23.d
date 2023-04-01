@@ -1,0 +1,11 @@
+/mnt/c/Users/Nick_/Desktop/Coding Projects/portfolio/Rust - Invaders Project/invaders/target/debug/deps/slice_deque-294b5d91bf36dc23.rmeta: /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/lib.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/macros.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/mod.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/buffer.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/linux.rs
+
+/mnt/c/Users/Nick_/Desktop/Coding Projects/portfolio/Rust - Invaders Project/invaders/target/debug/deps/libslice_deque-294b5d91bf36dc23.rlib: /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/lib.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/macros.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/mod.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/buffer.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/linux.rs
+
+/mnt/c/Users/Nick_/Desktop/Coding Projects/portfolio/Rust - Invaders Project/invaders/target/debug/deps/slice_deque-294b5d91bf36dc23.d: /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/lib.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/macros.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/mod.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/buffer.rs /home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/linux.rs
+
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/lib.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/macros.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/mod.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/buffer.rs:
+/home/nick/.cargo/registry/src/github.com-1ecc6299db9ec823/slice-deque-0.3.0/src/mirrored/linux.rs:

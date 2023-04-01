@@ -1,0 +1,102 @@
+* {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  width: 100%;
+  z-index: 10;
+}
+
+main {
+  display: flex;
+  padding-top: 69px;
+  flex-flow: wrap column;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: underline;
+  padding: 5px;
+  margin-right: 15px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5 rem;
+}
+
+.heroimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  max-height: 700px;
+  margin-top: 69px;
+}
+
+.herobanner {
+  display: flex;
+  position: absolute;
+  width: 1200px;
+  z-index: 1;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.teaofthemonth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 1000px;
+  margin-top: 69px;
+}
+
+.photogallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  margin-bottom: 20px;
+}
+
+.photogallery img {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.photogallery .photoitem h4 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}

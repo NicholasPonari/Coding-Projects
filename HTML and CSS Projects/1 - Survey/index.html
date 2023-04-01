@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>This is a coding project</title>
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <body>
+    <h1 id="title">The Nick Ponari Survey Form</h1>
+    <p id="description">
+      I just want to know what your interaction with this human being was like.
+    </p>
+    <form id="survey-form">
+      <label id="name-label" for="name">What's your name?</label>
+      <input
+        id="name"
+        type="text"
+        name="name"
+        placeholder="Your name here"
+        required
+      />
+
+      <label id="email-label" for="email">What's your email?</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Your email here"
+        required
+      />
+
+      <label id="number-label" for="age"> What is your age?</label>
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="18"
+        max="45"
+        placeholder="Your age here"
+        required
+      />
+
+      <p>What is your marital status</p>
+      <select
+        id="dropdown"
+        name="marital"
+        placeholder="Your status here"
+        required
+      >
+        <option disabled selected value>Select your status</option>
+        <option value="married">Married</option>
+        <option value="single">Single</option>
+        <option value="other">Other</option>
+      </select>
+
+      <p>Would you recommend this human being?</p>
+      <label
+        ><input name="recommended" value="Yes" type="radio" checked />Yes</label
+      >
+      <label><input name="recommended" value="No" type="radio" />No</label>
+      <label
+        ><input name="recommended" value="Hell No" type="radio" />Hell No</label
+      >
+
+      <p>What would you like to see improved?</p>
+      <label
+        ><input name="improved" value="looks" type="checkbox" />Looks</label
+      >
+      <label
+        ><input name="improved" value="style" type="checkbox" />Style</label
+      >
+      <label><input name="improved" value="body" type="checkbox" />Body</label>
+      <label><input name="improved" value="hair" type="checkbox" />Hair</label>
+      <label
+        ><input
+          name="improved"
+          value="personality"
+          type="checkbox"
+        />Personality</label
+      >
+      <label
+        ><input name="improved" value="voice" type="checkbox" />Voice</label
+      >
+      <label
+        ><input name="improved" value="nothing" type="checkbox" />Nothing</label
+      >
+
+      <p>Do you have any suggestions for this human being?</p>
+      <textarea
+        id="comments"
+        name="comments"
+        placeholder="Enter your comments here"
+      ></textarea>
+
+      <button type="submit" id="submit" class="submit-button">Submit</button>
+    </form>
+  </body>
+</html>
