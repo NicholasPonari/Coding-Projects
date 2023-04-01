@@ -1,1 +1,0 @@
-C:\Users\Nick_\Desktop\Coding\ Projects\portfolio\Rust\ Projects\ -\ Rust\ Practice\collections_enums_practice\target\debug\collections_and_enums_practice.exe: C:\Users\Nick_\Desktop\Coding\ Projects\portfolio\Rust\ Projects\ -\ Rust\ Practice\collections_enums_practice\src\main.rs
