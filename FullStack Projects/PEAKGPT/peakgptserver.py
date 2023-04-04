@@ -1,13 +1,11 @@
 import os
 import pickle
-from dotenv import load_dotenv
-from flask import Flask
+
+# NOTE: for local testing only, do NOT deploy with your key hardcoded
+
 from multiprocessing import Lock
 from multiprocessing.managers import BaseManager
 from llama_index import SimpleDirectoryReader, GPTSimpleVectorIndex, Document
-
-load_dotenv()
-api_key = os.getenv("OPENAI_API_KEY")
 
 index = None
 stored_docs = {}
@@ -20,7 +18,7 @@ pkl_name = "stored_documents.pkl"
 def initialize_index():
     """Create a new global index, or load one from the pre-set path."""
     global index, stored_docs
-
+    
     with lock:
         if os.path.exists(index_name):
             index = GPTSimpleVectorIndex.load_from_disk(index_name)
@@ -45,11 +43,11 @@ def insert_into_index(doc_file_path, doc_id=None):
     document = SimpleDirectoryReader(input_files=[doc_file_path]).load_data()[0]
     if doc_id is not None:
         document.doc_id = doc_id
-    
-    # Keep track of stored docs -- llama_index doesn't make this easy
-    stored_docs[document.doc_id] = document.text[0:200]  # only take the first 200 chars
 
     with lock:
+        # Keep track of stored docs -- llama_index doesn't make this easy
+        stored_docs[document.doc_id] = document.text[0:200]  # only take the first 200 chars
+
         index.insert(document)
         index.save_to_disk(index_name)
         

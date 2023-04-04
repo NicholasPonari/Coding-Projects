@@ -75,8 +75,8 @@ def get_documents():
 
 @app.route("/")
 def home():
-    return "Welcome to PEAK GPT! You're AI assistant to the world of wealth management."
+    return "Hello, World! Welcome to the llama_index docker image!"
 
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=5601)
+    app.run(host="0.0.0.0", port=5601)

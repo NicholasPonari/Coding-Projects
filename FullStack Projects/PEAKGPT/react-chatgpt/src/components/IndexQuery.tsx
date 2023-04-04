@@ -9,7 +9,7 @@ const IndexQuery = () => {
   const [responseSources, setResponseSources] = useState<ResponseSources[]>([]);
 
   const handleQuery = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key == "Enter") {
+    if (e.key === "Enter") {
       setLoading(true);
       queryIndex(e.currentTarget.value).then((response) => {
         setLoading(false);
