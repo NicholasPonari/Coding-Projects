@@ -21,6 +21,10 @@ h1 .highlight {
   color: #6c41ec;
 }
 
+h1 .highlight-green {
+  color: #00ff00;
+}
+
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.55rem;
