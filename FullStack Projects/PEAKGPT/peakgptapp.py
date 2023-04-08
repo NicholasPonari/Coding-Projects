@@ -7,8 +7,6 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 CORS(app)
 
-# initialize manager connection
-# NOTE: you might want to handle the password in a less hardcoded way
 manager = BaseManager(('127.0.0.1', 5602), b'password')
 manager.register('query_index')
 manager.register('insert_into_index')

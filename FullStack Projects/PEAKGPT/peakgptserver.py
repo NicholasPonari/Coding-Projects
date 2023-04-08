@@ -1,11 +1,12 @@
 import os
 import pickle
-
-# NOTE: for local testing only, do NOT deploy with your key hardcoded
-
+from dotenv import load_dotenv
 from multiprocessing import Lock
 from multiprocessing.managers import BaseManager
 from llama_index import SimpleDirectoryReader, GPTSimpleVectorIndex, Document
+
+load_dotenv()
+api_key = os.getenv('OPENAI_API_KEY')
 
 index = None
 stored_docs = {}
