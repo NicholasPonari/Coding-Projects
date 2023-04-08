@@ -3,7 +3,7 @@ import pickle
 from dotenv import load_dotenv
 from multiprocessing import Lock
 from multiprocessing.managers import BaseManager
-from llama_index import SimpleDirectoryReader, GPTSimpleVectorIndex, Document
+from llama_index import SimpleDirectoryReader, GPTSimpleVectorIndex
 
 load_dotenv()
 api_key = os.getenv('OPENAI_API_KEY')
