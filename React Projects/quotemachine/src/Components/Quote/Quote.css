@@ -1,0 +1,64 @@
+#quote-box {
+  border-radius: 3px;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+  margin: auto;
+}
+
+#text p svg {
+  margin-right: 10px;
+}
+
+#text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+#text i {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+#author {
+  text-align: right;
+  font-size: 1em;
+  padding-top: 20px;
+}
+
+#author p::before {
+  content: "- ";
+}
+
+#quote-box #buttons button#tweet-quote {
+  float: left;
+}
+
+#quote-box #buttons button#new-quote {
+  float: right;
+}
+
+#quote-box #buttons button {
+  border: none;
+  border-radius: 3px;
+  height: 38px;
+  outline: none;
+  color: white;
+  font-size: 0.85rem;
+  padding: 8px 18px 6px 18px;
+  display: flex;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box #buttons #tweet-quote {
+  font-size: 1.2em;
+}
