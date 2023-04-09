@@ -28,6 +28,12 @@ body {
   max-width: 450px;
   justify-content: center;
   text-align: center;
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+
+.wrapper.loading {
+  opacity: 0;
 }
 
 @keyframes App-logo-spin {

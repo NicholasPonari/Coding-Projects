@@ -8,6 +8,7 @@ body {
   margin: auto;
   display: flex;
   justify-content: center;
+  transition: background-color 0.5s ease-out;
 }
 
 code {

@@ -3,7 +3,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { useState, useEffect } from "react";
 
-function Quote({ color }) {
+function Quote({ color, loading, setLoading, handleClick }) {
   const [quote, setQuote] = useState("");
   const [author, setAuthor] = useState("");
 
@@ -16,6 +16,21 @@ function Quote({ color }) {
       })
       .catch((error) => console.log(error));
   }, []);
+
+  const handleNewQuote = () => {
+    setLoading(true);
+    handleClick();
+    setQuote("");
+    setAuthor("");
+    fetch("http://localhost:3001/quote")
+      .then((response) => response.json())
+      .then((data) => {
+        setQuote(data.quoteText);
+        setAuthor(data.quoteAuthor);
+        setLoading(false);
+      })
+      .catch((error) => console.log(error));
+  };
 
   return (
     <div id="quote-box">
@@ -32,7 +47,11 @@ function Quote({ color }) {
         <button id="tweet-quote" style={{ backgroundColor: color }}>
           <FaTwitter />
         </button>
-        <button id="new-quote" style={{ backgroundColor: color }}>
+        <button
+          id="new-quote"
+          style={{ backgroundColor: color }}
+          onClick={handleNewQuote}
+        >
           New Quote
         </button>
       </div>
