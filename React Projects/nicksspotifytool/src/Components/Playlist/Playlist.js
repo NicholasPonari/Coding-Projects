@@ -9,8 +9,11 @@ function Playlist(props) {
         tracks={props.playlistTracks}
         onRemove={props.removeTrack}
         isRemoval={true}
+        onChange={props.handleNameChange}
       />
-      <button className="Playlist-save">SAVE TO SPOTIFY</button>
+      <button className="Playlist-save" onClick={this.props.onSave}>
+        SAVE TO SPOTIFY
+      </button>
     </div>
   );
 }

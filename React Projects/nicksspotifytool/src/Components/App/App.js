@@ -18,6 +18,9 @@ class App extends React.Component {
     };
     this.addTrack = this.addTrack.bind(this);
     this.removeTrack = this.removeTrack.bind(this);
+    this.playlistName = this.playlistName.bind(this);
+    this.savePlaylist = this.savePlaylist.bind(this);
+    this.search = this.search.bind(this);
   }
 
   addTrack(track) {
@@ -37,6 +40,14 @@ class App extends React.Component {
     });
   }
 
+  savePlaylist() {
+    const trackURIs = this.state.playlistTracks.map((track) => track.uri);
+  }
+
+  search(searchTerm) {
+    console.log(searchTerm);
+  }
+
   render() {
     return (
       <div>
@@ -45,7 +56,7 @@ class App extends React.Component {
           <span className="highlight-green">Spotify </span>Tool
         </h1>
         <div className="App">
-          <SearchBar />
+          <SearchBar onSearch={this.search} />
           <div className="App-playlist">
             <SearchResults
               searchResults={this.state.searchResults}
@@ -55,6 +66,7 @@ class App extends React.Component {
               onRemove={this.removeTrack}
               playlistName={this.state.playlistName}
               playlistTracks={this.state.playlistTracks}
+              onSave={this.savePlaylist}
             />
           </div>
         </div>
