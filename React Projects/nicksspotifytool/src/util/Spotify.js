@@ -1,10 +1,13 @@
 import React from "react";
 
-let clientId;
-class Spotify extends React.Component {
+let accessToken;
+
+const Spotify = {
   getAccessToken() {
-    clientId = "" ? "" : clientId;
-  }
-}
+    if (accessToken) {
+      return accessToken;
+    }
+  },
+};
 
 export default Spotify;
